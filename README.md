@@ -1,37 +1,69 @@
 # MDP REPRESENTATION
 
 ## AIM:
-Write your aim here
+To represent a Markov Decision Process(MDP) problem in the following ways.
+
+Text representation, Graphical representation, Python - Dictonary representation.
 
 ## PROBLEM STATEMENT:
-
 ### Problem Description
-Write your answer here
+To conplete the school admisssion process , the role of the agent is to promote if the student is eligible , if not eligible , no admisssion.
 
 ### State Space
-Write your answer here
+{A1,A2,A3}->{0,1,2}
+
+  A1-> Admission Process 1
+  
+  A2-> Admission Process 2
+  
+  A3-> Final Process of Admission
 
 ### Sample State
-Write your answer here
+A1 -> Admission Process 1
 
 ### Action Space
-Write your answer here
 
+{E,NE} -> {0,1} E -> Eligible NE -> Not Eligible
 ### Sample Action
-Write your answer here
 
+E-> Eligible
 ### Reward Function
-Write your answer here
+
+R= {
+    +1, if eligible
+    +0, otherwise
+
 
 ### Graphical Representation
-Write your answer here
+
+![r1](https://github.com/Vivekreddy8360/mdp-representation/assets/94525701/5a3d00ca-f782-456f-9edf-2283f1216f08)
+
 
 ## PYTHON REPRESENTATION:
-Write your code here
+```
+T = {
+    0 : {
+        0 : [(1.0, 1, 1.0, True)],
+        1 : [(1.0, 0, 0.0, False)]
+    },
+    1 : {
+        0 : [(1.0, 2, 1.0, True)],
+        1 : [(1.0, 0, 0.0, False)]
+    },
+    2 : {
+        0 : [(1.0, 2, 1.0, True)],
+        1 : [(1.0, 1, 0.0, False)]
+    }
+}
 
+T
+```
 ## OUTPUT:
-Write your Python output here
+
+![rl1 2](https://github.com/Vivekreddy8360/mdp-representation/assets/94525701/fb5c5d02-3111-4883-8798-e654467a847e)
 
 ## RESULT:
-Write your output here
+Thus the given Markov Decision Process(MDP) problem is represented in the following ways.
+
+Text representation, Graphical representation, Python - Dictonary representation.
 
