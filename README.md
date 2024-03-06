@@ -40,8 +40,8 @@ R= {
 
 ### Graphical Representation
 
-![r1](https://github.com/Vivekreddy8360/mdp-representation/assets/94525701/5a3d00ca-f782-456f-9edf-2283f1216f08)
 
+![rl1](https://github.com/Vivekreddy8360/mdp-representation/assets/94525701/d0056791-bed6-42c0-bdba-8193386a082a)
 
 ## PYTHON REPRESENTATION:
 ```
