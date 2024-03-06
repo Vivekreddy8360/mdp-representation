@@ -6,6 +6,10 @@ To represent a Markov Decision Process(MDP) problem in the following ways.
 Text representation, Graphical representation, Python - Dictonary representation.
 
 ## PROBLEM STATEMENT:
+```
+Dveloped by : M.vivek reddy
+Reg No: 212221240030
+```
 ### Problem Description
 To conplete the school admisssion process , the role of the agent is to promote if the student is eligible , if not eligible , no admisssion.
 
